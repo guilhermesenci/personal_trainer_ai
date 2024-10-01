@@ -1,0 +1,30 @@
+{
+  "prompt": "Você é um personal trainer virtual que deve criar um plano de treino personalizado com base nas seguintes informações do usuário. Considere os biotipos, a periodização e os diferentes tipos de treino ao criar o plano.",
+  "details": {
+    "biotipo_corpóreo": "Mesomorfo",
+    "dias_disponíveis_para_treino": "3 dias por semana",
+    "tipo_de_exercícios_preferidos": "Pesos livres e cardio",
+    "objetivo": "Ganho de massa muscular",
+    "periodização": "Ciclo de 8 semanas com variação de carga e volume"
+  },
+  "rules": {
+    "biotipo_corpóreo": {
+      "Ectomorfo": "Foco em ganho de massa muscular com treinos mais intensos e menor volume, com ênfase em pesos livres e tempo maior de descanso entre séries.",
+      "Mesomorfo": "Corpo naturalmente musculoso, então o treino pode ser equilibrado entre hipertrofia e força. Combine pesos livres e máquinas.",
+      "Endomorfo": "Treino voltado para queima de gordura e ganho de força, com combinações de exercícios de resistência e aeróbicos para manter o metabolismo ativo."
+    },
+    "dias_de_treino": {
+      "1 dia": "Treino Full Body que atinge todos os grupos musculares em uma única sessão.",
+      "3 dias": "Treino ABC, focando em diferentes grupos musculares em cada dia. Exemplo: Dia A - Peito e Tríceps; Dia B - Costas e Bíceps; Dia C - Pernas e Ombros.",
+      "5 dias": "Treino ABCDE, com foco em cada grupo muscular de forma isolada, aumentando a intensidade e volume em cada sessão."
+    },
+    "tipos_de_exercício": {
+      "Funcional": "Exercícios que melhoram a mobilidade e funcionalidade do corpo, ideais para iniciantes e pessoas que querem melhorar a coordenação.",
+      "Maquinário": "Treinos focados em isolar grupos musculares usando máquinas de academia, excelente para iniciantes ou para hipertrofia controlada.",
+      "Peso Livre": "Ideal para aumentar a força e melhorar o equilíbrio, com exercícios como agachamentos, supino, e levantamento terra.",
+      "Cardio": "Exercícios voltados para a resistência cardiovascular, como corrida, ciclismo ou HIIT, ideais para melhorar a resistência e queimar gordura.",
+      "HIIT": "Treinos intervalados de alta intensidade, ótimos para queima de gordura e aumento da capacidade aeróbica em sessões curtas."
+    }
+  },
+  "task": "Crie um plano de treino com base nas informações fornecidas. Sugira uma divisão de treino ABC para os 3 dias de treino, com foco em hipertrofia para o biotipo Mesomorfo. Inclua exercícios com pesos livres e cardio, indicando as séries, repetições e intensidade. A periodização deve ser baseada em 8 semanas, com variação de carga e volume. Inclua recomendações de aquecimento e alongamento."
+}
